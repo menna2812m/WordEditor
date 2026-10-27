@@ -1,0 +1,14 @@
+<header class="app-header">
+  <a routerLink="/documents" class="brand">ContractsEditor POC</a>
+  <label class="user">
+    Signed in as
+    <select (change)="switchUser($any($event.target).value)">
+      @for (u of users; track u) {
+        <option [value]="u" [selected]="u === currentUser">{{ u }}</option>
+      }
+    </select>
+  </label>
+</header>
+<main>
+  <router-outlet />
+</main>
