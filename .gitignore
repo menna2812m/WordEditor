@@ -29,8 +29,17 @@ yarn-error.log
 !.vscode/mcp.json
 .history/*
 
+# Visual Studio
+.vs/
+*.user
+
+# Environment files and logs
+.env
+.env.*
+*.log
+
 # Miscellaneous
-/.angular/cache
+/.angular
 .sass-cache/
 /connect.lock
 /coverage
