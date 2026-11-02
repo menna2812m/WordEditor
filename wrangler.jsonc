@@ -2,7 +2,7 @@
   "name": "wordeditor",
   "compatibility_date": "2025-10-01",
   "assets": {
-    "directory": "./dist",
+    "directory": "./dist/frontend/browser",
     "not_found_handling": "single-page-application",
   },
 }
