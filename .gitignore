@@ -51,3 +51,13 @@ __screenshots__/
 # System files
 .DS_Store
 Thumbs.db
+
+# .NET backend
+/backend/**/bin/
+/backend/**/obj/
+/backend/**/wopi-data/
+/backend/.vs/
+
+# Wrangler
+.wrangler/
+.dev.vars
