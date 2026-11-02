@@ -1,0 +1,13 @@
+{
+  "profiles": {
+    "Azm.Wopi.SampleHost": {
+      "commandName": "Project",
+      "launchBrowser": false,
+      "applicationUrl": "http://localhost:5080",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "Wopi__TokenSecret": "dev-only-secret-change-me-0123456789abcdef"
+      }
+    }
+  }
+}
